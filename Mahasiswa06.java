@@ -5,12 +5,7 @@ class Mahasiswa06{
     String kelas;
     Double ipk;
 
-    Mahasiswa06(String nama, String nim, String kelas, Double ipk){
-        this.nama = nama;
-        this.nim = nim;
-        this.kelas = kelas;
-        this.ipk = ipk;
-    }
+
 
     void tampilkanInformasi(){
         System.out.println("Nama : "+ nama);
